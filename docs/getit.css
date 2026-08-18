@@ -25,6 +25,84 @@ Algumas informações úteis e dicas:
 html,
 body {
   font-family: "Roboto", sans-serif;
+  color: #2c2c2c
+}
+
+/* Barra no topo da página */
+.appbar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  background-color: #f7d736;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.35);
+}
+
+/* Logotipo do lado da barra */
+.logo {
+  width: 90px;
+  height: 60px;
+  object-fit: contain;
+}
+
+/* Texto ao lado do logotipo */
+.subtitle {
+  margin-left: 18px;
+  font-size: 20px;
+  color: #2c2c2c;
+}
+
+/* Área principal da página */
+.container {
+  padding: 35px 40px;
+}
+
+/* Caixa que contém o formulário */
+.form-card {
+  width: 540px;
+  margin: 0 auto 45px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.38);
+}
+
+/* Estilos compartilhados pelos campos do formulário */
+.form-card-title,
+.autoresize {
+  padding: 5px;
+  border: none;
+  outline: none;
+  resize: none;
+  font-family: "Roboto", sans-serif;
+  color: #4c4c4c;
+}
+
+/* Campo de título */
+.form-card-title {
+  font-size: 22px;
+}
+
+/* Campo de conteúdo */
+.autoresize {
+  min-height: 35px;
+  margin-top: 7px;
+  font-size: 15px;
+}
+
+/* Botão de criação */
+.btn {
+  height: 38px;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  background-color: #f7d736;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
