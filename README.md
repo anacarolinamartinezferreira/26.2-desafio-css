@@ -5,7 +5,7 @@ NOME DOS INTEGRANTES:
 - Beatriz Telles Feldberg
 - Ana Carolina Martinez Ferreira
 
-- Link do GitHub Pages: COLOQUE O LINK AQUI 
+- Link do GitHub Pages: https://anacarolinamartinezferreira.github.io/26.2-desafio-css/
 
 ## Desafio CSS
 
